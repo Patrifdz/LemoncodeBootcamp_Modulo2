@@ -1,0 +1,66 @@
+* {
+    font-size: 30px;
+    margin-left:15px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 15px 45px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-right: 65px;
+    background-color: beige;
+}
+
+.dataHotelContainer {
+    font-weight:600;
+    padding: 25px;
+    width: 65vw;
+    height: 300px;
+    background-color: lightgrey;
+    border: 0.5px solid 10% rgb(23, 8, 53);
+    box-shadow: -15px 15px 60px -25px rgb(40, 10, 100);
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+}
+
+.name_locationHotel {
+    padding-top: 50px;
+    font-size: 25px;
+    position:absolute;
+}
+
+.locationHotel {
+    display: block;
+    font-size: 25px;
+    font-weight:400;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.imageHotel {
+    width: 40%;
+    height: 250px;
+    margin-left: 35vw;
+    border: 0.5px solid 20% rgb(23, 8, 53);
+    box-shadow: 2px -2px 40px -25px rgb(40, 10, 100);
+
+}
+
+.scoreHotelContainer {
+    background-color: lightgrey;
+    border: 0.5px solid 10% rgb(23, 8, 53);
+    box-shadow: -15px 15px 60px -25px rgb(40, 10, 100);
+    width: 25vw;
+    display: block;
+    margin-left: 67vw;
+    height: 300px;
+    text-align: right;
+    padding-top: 65px;
+    padding-right: 60px;
+}
+
